@@ -4,8 +4,28 @@
     ViewData["Title"] = "DoraemonTheme HomePage";
 }
 
+<style>
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    h2{
+        font-style: italic;
+        text-align: center;
+    }
+    p{
+        font-style: italic;
+        text-align:center
+    }
+    .para{
+        font-weight: bold;
+        text-align:center;
+        font-style: italic;
+    }
+</style>
+
 <div class="text-center">
-    <h1 class="display-4" style="font-weight: bold;">Welcome, to the Doraemon's World</h1>
+    <h1>Welcome, to the Doraemon's World</h1>
     @* <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
 </div>
 
@@ -45,3 +65,23 @@
     };
 }
 
+<br>
+<br>
+
+<hr>
+<h2>Doraemon Theme Character's Details:</h2>
+<hr>
+<br>
+<br>
+
+
+@for (var i = 0; i < Doraemons_Theme_Characters.Length; i++)
+{
+    var Doraemon = Doraemons_Theme_Characters[i];
+    <p class="para">Full Name: @Doraemon.fullName <br></p>
+    <p>Nick Name: @Doraemon.nickName <br></p>
+    <p>Species: @Doraemon.species <br></p>
+    <p>Favorite Colour: @Doraemon.favoriteColour <br></p>
+    <hr>
+    <br>
+}
