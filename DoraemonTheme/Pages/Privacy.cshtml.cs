@@ -11,6 +11,7 @@ namespace DoraemonTheme.Pages
     public class PrivacyModel : PageModel
     {
         private readonly ILogger<PrivacyModel> _logger;
+        public DateTime currentDate;
 
         public PrivacyModel(ILogger<PrivacyModel> logger)
         {
@@ -19,6 +20,7 @@ namespace DoraemonTheme.Pages
 
         public void OnGet()
         {
+            currentDate = DateTime.Now;
         }
     }
 }

@@ -12,6 +12,8 @@ namespace DoraemonTheme.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
+        public DateTime currentDate;
+
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
@@ -19,7 +21,7 @@ namespace DoraemonTheme.Pages
 
         public void OnGet()
         {
-
+            currentDate = DateTime.Now;
         }
     }
 }
