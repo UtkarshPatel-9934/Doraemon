@@ -1,0 +1,73 @@
+﻿@page "/character"
+
+<h1>CharacterList</h1>
+
+@if (characters.Count > 0)
+{
+<ul>
+	@foreach (var character in characters)
+	{
+	    	<li>
+		    <label for="name">Name:</label>
+		    <input for="name" @bind="character.Name" />
+		    <br>
+		    <label for="name">Age:</label>
+		    <input @bind="character.Age" />
+		    <br>
+		    <label for="name">Profession:</label>
+		    <input @bind="character.Profession" />
+		    <br>
+		    @if (isFictional == true){
+			    <p>Fictional Character</p>
+		    }
+		    else{
+			    <p>Real Person</p>
+		    }
+		</li>
+	}
+</ul>
+}
+
+
+<hr>
+<label>Character's Name:</label>
+<input placeholder="Name" @bind="newCharactersName"/>
+<br>
+<br>
+<label>Character's Age:</label>
+<input placeholder="Age" @bind="newCharactersAge"/>
+<br>
+<br>
+<label>Character's Profession:</label>
+<input placeholder="Profession" @bind="newCharactersProfession"/>
+<br>
+<br>
+<button @onclick="AddCharacter">Add Todo</button>
+
+
+@code {
+	private string newCharactersName;
+	private string newCharactersProfession;
+	private int newCharactersAge;
+	private bool isFictional = true; @* you have to set isFictional value here by manual*@
+	private List<Character> characters = new();
+
+	private void AddCharacter(){
+		if (!string.IsNullOrWhiteSpace(newCharactersName))
+        	{
+			if(!string.IsNullOrWhiteSpace(newCharactersProfession)){
+				if(newCharactersAge != 0){
+						Character newItem = new Character{
+						Name = newCharactersName,
+						Profession = newCharactersProfession,
+						Age = newCharactersAge
+						};
+            					newCharactersName = string.Empty;
+            					newCharactersProfession = string.Empty;
+						newCharactersAge = 0;
+						characters.Add(newItem);
+			}
+			}
+        	}
+	}
+}
