@@ -1,0 +1,12 @@
+/Users/utkarsh/Downloads/SignalR/BlazorWebAssemblySignalRApp/Shared/bin/Debug/net5.0/BlazorWebAssemblySignalRApp.Shared.deps.json
+/Users/utkarsh/Downloads/SignalR/BlazorWebAssemblySignalRApp/Shared/bin/Debug/net5.0/BlazorWebAssemblySignalRApp.Shared.dll
+/Users/utkarsh/Downloads/SignalR/BlazorWebAssemblySignalRApp/Shared/bin/Debug/net5.0/ref/BlazorWebAssemblySignalRApp.Shared.dll
+/Users/utkarsh/Downloads/SignalR/BlazorWebAssemblySignalRApp/Shared/bin/Debug/net5.0/BlazorWebAssemblySignalRApp.Shared.pdb
+/Users/utkarsh/Downloads/SignalR/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net5.0/BlazorWebAssemblySignalRApp.Shared.csprojAssemblyReference.cache
+/Users/utkarsh/Downloads/SignalR/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net5.0/BlazorWebAssemblySignalRApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/utkarsh/Downloads/SignalR/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net5.0/BlazorWebAssemblySignalRApp.Shared.AssemblyInfoInputs.cache
+/Users/utkarsh/Downloads/SignalR/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net5.0/BlazorWebAssemblySignalRApp.Shared.AssemblyInfo.cs
+/Users/utkarsh/Downloads/SignalR/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net5.0/BlazorWebAssemblySignalRApp.Shared.csproj.CoreCompileInputs.cache
+/Users/utkarsh/Downloads/SignalR/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net5.0/BlazorWebAssemblySignalRApp.Shared.dll
+/Users/utkarsh/Downloads/SignalR/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net5.0/ref/BlazorWebAssemblySignalRApp.Shared.dll
+/Users/utkarsh/Downloads/SignalR/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net5.0/BlazorWebAssemblySignalRApp.Shared.pdb
