@@ -8,35 +8,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 447596867,
+        "HashCode": 348109320,
         "Kind": "Components.Component",
-        "Name": "EventsPWA.Pages.Counter",
+        "Name": "EventsPWA.App",
         "AssemblyName": "EventsPWA",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.Pages.Counter"
+          "Common.TypeName": "EventsPWA.App"
         }
       },
       {
-        "HashCode": 2078233830,
+        "HashCode": -2057303238,
         "Kind": "Components.Component",
-        "Name": "EventsPWA.Pages.Counter",
+        "Name": "EventsPWA.App",
         "AssemblyName": "EventsPWA",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EventsPWA.Pages.Counter"
+            "TagName": "EventsPWA.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.Pages.Counter",
+          "Common.TypeName": "EventsPWA.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -107,6 +107,39 @@
         }
       },
       {
+        "HashCode": 447596867,
+        "Kind": "Components.Component",
+        "Name": "EventsPWA.Pages.Counter",
+        "AssemblyName": "EventsPWA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EventsPWA.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 2078233830,
+        "Kind": "Components.Component",
+        "Name": "EventsPWA.Pages.Counter",
+        "AssemblyName": "EventsPWA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EventsPWA.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EventsPWA.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -2045982380,
         "Kind": "Components.Component",
         "Name": "EventsPWA.Pages.Account.Login_component",
@@ -136,39 +169,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "EventsPWA.Pages.Account.Login_component",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 348109320,
-        "Kind": "Components.Component",
-        "Name": "EventsPWA.App",
-        "AssemblyName": "EventsPWA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.App"
-        }
-      },
-      {
-        "HashCode": -2057303238,
-        "Kind": "Components.Component",
-        "Name": "EventsPWA.App",
-        "AssemblyName": "EventsPWA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EventsPWA.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

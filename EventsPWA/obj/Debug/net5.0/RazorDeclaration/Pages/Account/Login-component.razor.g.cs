@@ -98,18 +98,14 @@ using EventsPWA.Shared;
     private string message;
 
 
-    public bool PasswordVisible = false;
-    public string PasswordVisibility;
+    public bool PasswordVisible = true;
+    public string PasswordVisibility = "text";
     private void OnLoginCallback()
     {
         if ((!string.IsNullOrWhiteSpace(userName)) && (!string.IsNullOrWhiteSpace(password)))
         {
             message = "Login Successful!";
-            if(PasswordVisible != true)
-            {
-                PasswordVisibility = "password";
-            }
-            
+            PasswordVisibility = "password";
 	    }
     }
 

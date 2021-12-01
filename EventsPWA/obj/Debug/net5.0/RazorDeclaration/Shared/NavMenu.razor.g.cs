@@ -90,7 +90,7 @@ using EventsPWA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "/Users/utkarsh/Documents/GithubCode/Doraemon/EventsPWA/Shared/NavMenu.razor"
+#line 33 "/Users/utkarsh/Documents/GithubCode/Doraemon/EventsPWA/Shared/NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

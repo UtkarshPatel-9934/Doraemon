@@ -2,11 +2,13 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #F4DF4EFF;
 }
 
 a, .btn-link {
     color: #0366d6;
 }
+
 
 .btn-primary {
     color: #fff;
@@ -31,7 +33,7 @@ a, .btn-link {
 }
 
 #blazor-error-ui {
-    background: lightyellow;
+    background: #60f360;
     bottom: 0;
     box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
     display: none;
