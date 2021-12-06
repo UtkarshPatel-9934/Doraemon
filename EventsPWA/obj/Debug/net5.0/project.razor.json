@@ -8,138 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 224597770,
-        "Kind": "Components.Component",
-        "Name": "EventsPWA.Pages.Account.Account",
-        "AssemblyName": "EventsPWA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Account"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.Pages.Account.Account"
-        }
-      },
-      {
-        "HashCode": 1140306585,
-        "Kind": "Components.Component",
-        "Name": "EventsPWA.Pages.Account.Account",
-        "AssemblyName": "EventsPWA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EventsPWA.Pages.Account.Account"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.Pages.Account.Account",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 2049636496,
-        "Kind": "Components.Component",
-        "Name": "EventsPWA.Pages.FetchData",
-        "AssemblyName": "EventsPWA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 69272192,
-        "Kind": "Components.Component",
-        "Name": "EventsPWA.Pages.FetchData",
-        "AssemblyName": "EventsPWA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EventsPWA.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1625743624,
-        "Kind": "Components.Component",
-        "Name": "EventsPWA.Pages.Index",
-        "AssemblyName": "EventsPWA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1156152859,
-        "Kind": "Components.Component",
-        "Name": "EventsPWA.Pages.Index",
-        "AssemblyName": "EventsPWA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EventsPWA.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 447596867,
-        "Kind": "Components.Component",
-        "Name": "EventsPWA.Pages.Counter",
-        "AssemblyName": "EventsPWA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 2078233830,
-        "Kind": "Components.Component",
-        "Name": "EventsPWA.Pages.Counter",
-        "AssemblyName": "EventsPWA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EventsPWA.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1759938486,
         "Kind": "Components.Component",
         "Name": "EventsPWA.Shared.MainLayout",
@@ -232,6 +100,39 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "EventsPWA.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2080115372,
+        "Kind": "Components.Component",
+        "Name": "EventsPWA.Shared.NavMenu",
+        "AssemblyName": "EventsPWA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EventsPWA.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1162354067,
+        "Kind": "Components.Component",
+        "Name": "EventsPWA.Shared.NavMenu",
+        "AssemblyName": "EventsPWA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EventsPWA.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EventsPWA.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -342,35 +243,134 @@
         }
       },
       {
-        "HashCode": 2080115372,
+        "HashCode": 2049636496,
         "Kind": "Components.Component",
-        "Name": "EventsPWA.Shared.NavMenu",
+        "Name": "EventsPWA.Pages.FetchData",
         "AssemblyName": "EventsPWA",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.Shared.NavMenu"
+          "Common.TypeName": "EventsPWA.Pages.FetchData"
         }
       },
       {
-        "HashCode": -1162354067,
+        "HashCode": 69272192,
         "Kind": "Components.Component",
-        "Name": "EventsPWA.Shared.NavMenu",
+        "Name": "EventsPWA.Pages.FetchData",
         "AssemblyName": "EventsPWA",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EventsPWA.Shared.NavMenu"
+            "TagName": "EventsPWA.Pages.FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EventsPWA.Shared.NavMenu",
+          "Common.TypeName": "EventsPWA.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1625743624,
+        "Kind": "Components.Component",
+        "Name": "EventsPWA.Pages.Index",
+        "AssemblyName": "EventsPWA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EventsPWA.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1156152859,
+        "Kind": "Components.Component",
+        "Name": "EventsPWA.Pages.Index",
+        "AssemblyName": "EventsPWA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EventsPWA.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EventsPWA.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 447596867,
+        "Kind": "Components.Component",
+        "Name": "EventsPWA.Pages.Counter",
+        "AssemblyName": "EventsPWA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EventsPWA.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 2078233830,
+        "Kind": "Components.Component",
+        "Name": "EventsPWA.Pages.Counter",
+        "AssemblyName": "EventsPWA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EventsPWA.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EventsPWA.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 224597770,
+        "Kind": "Components.Component",
+        "Name": "EventsPWA.Pages.Account.Account",
+        "AssemblyName": "EventsPWA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Account"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EventsPWA.Pages.Account.Account"
+        }
+      },
+      {
+        "HashCode": 1140306585,
+        "Kind": "Components.Component",
+        "Name": "EventsPWA.Pages.Account.Account",
+        "AssemblyName": "EventsPWA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EventsPWA.Pages.Account.Account"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EventsPWA.Pages.Account.Account",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

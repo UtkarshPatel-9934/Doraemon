@@ -82,7 +82,7 @@ using EventsPWA.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/Account")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/account-login")]
     public partial class Account : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
